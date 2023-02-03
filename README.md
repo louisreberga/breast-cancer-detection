@@ -20,7 +20,7 @@ Here is an example of a non-cancer (left) and a cancer (right) images.
 The data is composed by 54706 annotated images but the dataset is highly unbalenced.
 
 <p>
-    <img src="images/dataset.png">
+    <img src="images/Dataset.png" width="515">
 </p>
 
 To deal witj unbaleced data we implemented 2 tricks: 
