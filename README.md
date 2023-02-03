@@ -31,7 +31,7 @@ To deal witj unbaleced data we implemented 2 tricks:
 
 ## Model
 
-We decided to used SwinV2 as classifier model. SwinV2 is the second version of the Microsoft Visual Transformer (ViT).
+We decided to used SwinV2 as classifier model. SwinV2 is the second version of the Microsoft Vision Transformer (ViT).
 This model is different from the original one by using shifted window approach. 
 
 As recommended to train a ViT, we used 4 data augmentations techniques:
@@ -60,3 +60,11 @@ As recommended to train a ViT, we used 4 data augmentations techniques:
 </p>
 
 ## References
+[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
+
+[How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers
+](https://arxiv.org/abs/2106.10270)
+
+[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030)
+
+[Swin Transformer V2: Scaling Up Capacity and Resolution](https://arxiv.org/abs/2111.09883)
